@@ -13,18 +13,29 @@ header {
 }
 
 .contact {
-    padding-bottom: 22px;
     border-bottom: rgb(255, 255, 255, 0.1) solid 1px;
     font-family: 'Poppins', sans-serif;
     height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .contact-bar {
     width: 85%;
     margin: 0 auto;
-    padding-top: 22px;
+    display: flex;
+    justify-content: space-between;
     font-size: 16px;
     font-weight: 500;
+}
+
+a {
+    transition-duration: 0.5s;
+}
+
+a:hover {
+    color: #cfcfcf;
 }
 
 
@@ -33,14 +44,6 @@ header {
     clear: both;
     display: block;
 } */
-
-.left-ul {
-    display: inline-block;
-}
-
-.right-ul {
-    float: right;
-}
 
 .contact-li {
     display: inline-block;
@@ -64,6 +67,7 @@ header {
 .nav {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .nav-title {
@@ -75,7 +79,6 @@ header {
 .nav-li {
     display: inline-block;
     margin-left: 50px;
-    margin-top: 14px;
 }
 
 .nav-li a {
@@ -84,7 +87,7 @@ header {
     font-weight: 400;
 }
 
-.suggest {
+.suggestion {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -138,8 +141,6 @@ header {
 
 .search-bar {
     display: flex;
-    /* width: 100%; */
-    /* justify-content: center; */
     flex-direction: column;
     align-items: center;
 }
@@ -171,17 +172,23 @@ header {
     font-weight: 400;
 }
 
-.search-form button {
+.search-button {
     width: 200px;
     height: 70px;
     border-radius: 47px;
     margin-left: -90px;
     border-style: none;
-    background: linear-gradient(90deg, rgba(248, 115, 207, 1) 0%, rgba(163, 77, 192, 1) 51%, rgba(81, 41, 178, 1) 100%);
-    color: #FFFFFF;
+    background: linear-gradient(90deg, rgb(245, 89, 198) 0%, rgba(163, 77, 192, 1) 51%, rgba(81, 41, 178, 1) 100%);
+    color: #d3d3d3;
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
     font-weight: 700;
+    transition-duration: 1.0s;
+}
+
+.search-button:hover {
+    color: #FFFFFF;
+    background: linear-gradient(90deg, rgba(248, 115, 207, 1) 0%, rgb(178, 83, 209) 51%, rgb(88, 44, 190) 100%);
 }
 
 .domain-ul {
