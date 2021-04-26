@@ -38,13 +38,6 @@ a:hover {
     color: #cfcfcf;
 }
 
-
-/* .contact-bar::after {
-    content: ();
-    clear: both;
-    display: block;
-} */
-
 .contact-li {
     display: inline-block;
     margin-right: 50px;
@@ -246,7 +239,7 @@ a:hover {
 }
 
 
-/* section #1 */
+/* section #1 - banner*/
 
 .section {
     background-image: url(../images/section1.svg);
@@ -302,4 +295,73 @@ a:hover {
 
 .banner-img {
     width: 100%;
+}
+
+
+/* section #2 - info */
+
+.info {
+    height: 1400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.details {
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.details-paragraphs {
+    width: 60%;
+    text-align: center;
+}
+
+.details-p1 {
+    color: #6B3C96;
+    font-size: 46px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    margin-bottom: 25px;
+}
+
+.details-p2 {
+    color: #4E4E4E;
+    font-size: 22px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    margin-bottom: 80px;
+}
+
+.details-box {
+    display: flex;
+    height: 400px;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+}
+
+.box {
+    width: 30%;
+    height: 390px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.box img {
+    width: 100px;
+}
+
+.box-p1 {
+    color: #393743;
+    font-size: 34px;
+    font-weight: 500;
+}
+
+.box-p2 {
+    color: #4E4E4E;
+    font-size: 20px;
+    font-weight: 300;
 }
