@@ -2,12 +2,12 @@
 
 header {
     background: linear-gradient(140deg, rgba(137, 9, 173, 1) 0%, rgba(31, 8, 162, 1) 100%);
-    height: 1800px;
+    height: 117.1vw;
 }
 
 .header-wraper {
     background-image: url(../images/Intersection.svg);
-    background-size: auto;
+    background-size: 130.2vw;
     background-position: top;
     background-repeat: no-repeat;
 }
@@ -15,7 +15,7 @@ header {
 .contact {
     border-bottom: rgb(255, 255, 255, 0.1) solid 1px;
     font-family: 'Poppins', sans-serif;
-    height: 65px;
+    height: 4.2vw;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -26,13 +26,11 @@ header {
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    font-size: 16px;
-    font-weight: 500;
 }
 
 .contact-li {
     display: inline-block;
-    margin-right: 50px;
+    margin-right: 3.2vw;
 }
 
 .contact-li:nth-child(3) {
@@ -41,11 +39,13 @@ header {
 
 .contact-li a {
     color: #FFFFFF;
+    font-size: 1vw;
+    font-weight: 500;
 }
 
 .navigation {
     width: 85%;
-    margin: 60px auto 0 auto;
+    margin: 3.9vw auto 0 auto;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -56,19 +56,19 @@ header {
 }
 
 .nav-title {
-    font-size: 40px;
+    font-size: 2.6vw;
     color: #FFFFFF;
     font-weight: 400;
 }
 
 .nav-li {
     display: inline-block;
-    margin-left: 50px;
+    margin-left: 3.2vw;
 }
 
 .nav-li a {
     color: #FFFFFF;
-    font-size: 20px;
+    font-size: 1.3vw;
     font-weight: 400;
 }
 
@@ -78,7 +78,7 @@ header {
     justify-content: space-between;
     width: 85%;
     margin: 0 auto;
-    height: 900px;
+    height: 58.5vw;
 }
 
 .offer {
@@ -86,31 +86,31 @@ header {
 }
 
 .offer-p1 {
-    font-size: 60px;
+    font-size: 3vw;
     font-weight: 300;
     color: #FFFFFF;
     font-family: 'Roboto', sans-serif;
-    margin-bottom: 45px;
+    margin-bottom: 2.9vw;
 }
 
 .offer-p2 {
-    font-size: 22px;
+    font-size: 1.5vw;
     font-weight: 300;
     color: #FFFFFF;
     font-family: 'Poppins', sans-serif;
-    margin-bottom: 45px;
+    margin-bottom: 2.9vw;
 }
 
 .offer-button {
     background-color: #D55E54;
     border-style: none;
-    width: 200px;
-    height: 65px;
+    width: 13vw;
+    height: 3.6vw;
     border-radius: 30px;
 }
 
 .offer-button a {
-    font-size: 20px;
+    font-size: 1.3vw;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     color: #FFFFFF;
@@ -132,10 +132,10 @@ header {
 
 .search-p1 {
     font-family: 'Roboto', sans-serif;
-    font-size: 60px;
+    font-size: 3.9vw;
     font-weight: 300;
     color: #FFFFFF;
-    margin-bottom: 65px;
+    margin-bottom: 4.2vw;
 }
 
 .search-form {
@@ -146,27 +146,27 @@ header {
 
 .search-form input {
     width: 50%;
-    height: 70px;
+    height: 4.5vw;
     border-radius: 47px;
     border-style: none;
     outline: none;
     color: #707070;
-    padding-left: 50px;
+    padding-left: 3.2vw;
     font-family: 'Poppins', sans-serif;
-    font-size: 20px;
+    font-size: 1.3vw;
     font-weight: 400;
 }
 
 .search-button {
-    width: 200px;
-    height: 70px;
+    width: 13vw;
+    height: 4.5vw;
     border-radius: 47px;
-    margin-left: -90px;
+    margin-left: -6vw;
     border-style: none;
     background: linear-gradient(90deg, rgb(245, 89, 198) 0%, rgba(163, 77, 192, 1) 51%, rgba(81, 41, 178, 1) 100%);
     color: #dfdbdb;
     font-family: 'Poppins', sans-serif;
-    font-size: 20px;
+    font-size: 1.3vw;
     font-weight: 700;
     transition-duration: 1.0s;
 }
@@ -177,13 +177,13 @@ header {
 }
 
 .domain-ul {
-    margin-top: 45px;
-    margin-bottom: 100px;
+    margin-top: 2.9vw;
+    margin-bottom: 6.5vw;
 }
 
 .domain-li {
     display: inline-block;
-    margin-right: 20px;
+    margin-right: 1.3vw;
 }
 
 .domain-li:nth-child(5) {
@@ -192,13 +192,13 @@ header {
 
 .domain-li a {
     font-family: 'Poppins', sans-serif;
-    font-size: 16px;
+    font-size: 1.1vw;
     font-weight: 400;
     color: #FFFFFF;
 }
 
 .cards {
-    height: 270px;
+    height: 17.5vw;
     width: 85%;
     margin: 0 auto;
     display: flex;
@@ -218,16 +218,21 @@ header {
 
 .card-p1 {
     color: #222323;
-    font-size: 22px;
+    font-size: 1.4vw;
     font-family: 'Roboto', sans-serif;
+    font-weight: 400;
 }
 
 .card-p2 {
     color: #606060;
-    font-size: 16px;
+    font-size: 1.2vw;
     font-family: 'Roboto', sans-serif;
     width: 90%;
     text-align: center;
+}
+
+.card img {
+    width: 6vw;
 }
 
 
@@ -235,7 +240,8 @@ header {
 
 .section {
     background-image: url(../images/section1.svg);
-    height: 750px;
+    background-position: center;
+    height: 48.8vw;
 }
 
 .banner {
@@ -257,20 +263,20 @@ header {
 
 .banner-p1 {
     font-family: 'Roboto', sans-serif;
-    font-size: 50px;
+    font-size: 3.2vw;
     color: #FFFFFF;
 }
 
 .banner-p2 {
     font-family: 'Poppins', sans-serif;
-    font-size: 20px;
+    font-size: 1.3vw;
     color: #FFFFFF;
 }
 
 .banner-button {
     background-color: rgba(139, 139, 139, 0.4);
-    width: 180px;
-    height: 60px;
+    width: 11.7vw;
+    height: 3.9vw;
     border-radius: 33px;
     border-style: none;
 }
@@ -278,7 +284,7 @@ header {
 .banner-button a {
     color: #FFFFFF;
     font-family: 'Poppins', sans-serif;
-    font-size: 18px;
+    font-size: 1.1vw;
 }
 
 .banner-image {
@@ -293,7 +299,7 @@ header {
 /* section #2 - info */
 
 .info {
-    height: 1250px;
+    height: 85vw;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -313,48 +319,48 @@ header {
 
 .details-p1 {
     color: #6B3C96;
-    font-size: 46px;
+    font-size: 2.9vw;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
-    margin-bottom: 25px;
+    margin-bottom: 1.6vw;
 }
 
 .details-p2 {
     color: #4E4E4E;
-    font-size: 22px;
+    font-size: 1.4vw;
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
-    margin-bottom: 80px;
+    margin-bottom: 5.2vw;
 }
 
 .details-box {
     display: flex;
-    height: 400px;
+    height: 26vw;
     justify-content: space-between;
     font-family: 'Poppins', sans-serif;
 }
 
 .box {
     width: 30%;
-    height: 390px;
+    height: 25.3vw;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
 }
 
 .box img {
-    width: 100px;
+    width: 6.5vw;
 }
 
 .box-p1 {
     color: #393743;
-    font-size: 34px;
+    font-size: 2.2vw;
     font-weight: 500;
 }
 
 .box-p2 {
     color: #4E4E4E;
-    font-size: 20px;
+    font-size: 1.3vw;
     font-weight: 300;
 }
 
@@ -363,7 +369,7 @@ header {
 
 .host-info {
     background: linear-gradient(140deg, rgba(107, 36, 130, 1) 0%, rgba(10, 30, 137, 1) 100%);
-    height: 1700px;
+    height: 110.6vw;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -389,36 +395,36 @@ header {
 }
 
 .block-p1 {
-    font-size: 45px;
+    font-size: 2.9vw;
     font-family: 'Roboto', sans-serif;
     color: #FFFFFF;
     font-weight: 300;
-    margin-bottom: 40px;
+    margin-bottom: 2.6vw;
 }
 
 .block-p2 {
-    font-size: 20px;
+    font-size: 1.3vw;
     font-family: 'Poppins', sans-serif;
     color: #FFFFFF;
     font-weight: 300;
 }
 
 .block-p3 {
-    font-size: 20px;
+    font-size: 1.3vw;
     font-family: 'Poppins', sans-serif;
     color: #FFFFFF;
     font-weight: 300;
-    margin-top: 40px;
-    margin-bottom: 55px;
+    margin-top: 2.6vw;
+    margin-bottom: 3.5vw;
 }
 
 .block-p3 i {
     color: #6AC259;
-    margin-right: 3.5px;
+    margin-right: 0.2vw;
 }
 
 .block-a {
-    font-size: 20px;
+    font-size: 1.3vw;
     font-family: 'Poppins', sans-serif;
     color: #FFFFFF;
     font-weight: 500;
