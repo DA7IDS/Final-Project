@@ -50,7 +50,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 8vh;
+    height: 7.8vw;
 }
 
 .nav {
@@ -181,7 +181,7 @@ header {
     font-family: 'Poppins', sans-serif;
     font-size: 1.3vw;
     font-weight: 700;
-    transition-duration: 1.0s;
+    transition-duration: 0.4s;
 }
 
 .search-button:hover {
@@ -482,6 +482,8 @@ header {
     font-family: 'poppins', sans-serif;
     color: #FFFFFF;
     font-weight: 300;
+    width: 70%;
+    text-align: center;
 }
 
 .packets {
@@ -490,12 +492,36 @@ header {
     justify-content: space-between;
 }
 
-.packet {
+.packet-border {
     margin-top: 5.5vw;
     width: 26vw;
     height: 42vw;
-    background-color: #FFFFFF;
     border-radius: 1.3vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.packet-border:nth-child(1) {
+    background: linear-gradient(164deg, rgba(129, 40, 128, 1) 0%, rgba(146, 98, 255, 1) 100%);
+}
+
+.packet-border:nth-child(2) {
+    background: linear-gradient(164deg, rgba(129, 40, 128, 1) 0%, rgba(98, 231, 255, 1) 100%);
+}
+
+.packet-border:nth-child(3) {
+    background: rgb(129, 40, 128);
+    background: linear-gradient(164deg, rgba(129, 40, 128, 1) 0%, rgba(98, 255, 152, 1) 100%);
+}
+
+.packet {
+    width: 26vw;
+    height: 42vw;
+    background-color: #FFFFFF;
+    border-radius: 1.3vw 1.3vw 17.4vw 1.3vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -518,6 +544,14 @@ header {
     margin-bottom: 2.2vw;
 }
 
+.paragraph-top {
+    font-size: 1.3vw;
+    vertical-align: top;
+    font-family: 'poppins', sans-serif;
+    color: #706A93;
+    font-weight: 700;
+}
+
 .packet-p {
     font-size: 1.4vw;
     font-family: 'poppins', sans-serif;
@@ -534,10 +568,16 @@ header {
     margin-top: 1.5vw;
 }
 
-.top-txt {
-    font-size: 1.3vw;
-    vertical-align: top;
-    font-family: 'poppins', sans-serif;
-    color: #706A93;
+.border-txt {
+    transform: rotate(-44deg);
+    position: absolute;
+    bottom: 2.2vw;
+    right: 0.3vw;
+}
+
+.border-txt a {
+    font-size: 1.4vw;
+    font-family: 'Roboto', sans-serif;
+    color: #FFFFFF;
     font-weight: 700;
 }
