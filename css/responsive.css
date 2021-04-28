@@ -1,38 +1,40 @@
 @media (max-width: 800px) {
     /* header */
     header {
-        height: 130vw;
+        height: 135vw;
     }
     .contact {
         display: none;
+    }
+    .navigation {
+        height: 10vw;
     }
     .nav {
         display: none;
     }
     .nav-title {
-        font-size: 4vw;
+        font-size: 5vw;
     }
     .burger-bar {
         display: block;
-        font-size: 4vw;
+        font-size: 5vw;
     }
     /* section #1 - suggestion */
     .suggestion {
         width: 100%;
     }
     .suggest-img {
-        height: 58.5vw;
+        /* height: 58.5vw; */
         position: relative;
         z-index: 1;
     }
     .image {
-        height: 58.5vw;
+        /* height: 58.5vw; */
         opacity: 0.5;
     }
     .offer {
         position: absolute;
         width: 85%;
-        text-align: center;
         z-index: 2;
     }
     .offer-p1 {
@@ -95,19 +97,19 @@
         height: 70vw;
     }
     .banner-p1 {
-        font-size: 5.5vw;
+        font-size: 5vw;
     }
     .banner-p2 {
-        font-size: 3vw;
+        font-size: 2.8vw;
     }
     .banner-button {
-        width: 22vw;
-        height: 7vw;
+        width: 20vw;
+        height: 6.5vw;
         border-radius: 2.1vw;
         border-style: none;
     }
     .banner-button a {
-        font-size: 2.5vw;
+        font-size: 2.2vw;
     }
     .banner-image {
         width: 90%;
@@ -127,7 +129,7 @@
         height: 200vw;
     }
     .details-paragraphs {
-        width: 95%;
+        width: 100%;
     }
     .details-p1 {
         font-size: 7vw;
@@ -139,9 +141,10 @@
     }
     .details-box {
         height: 150vw;
+        justify-content: space-around;
     }
     .box {
-        width: 40vw;
+        width: 38vw;
         height: 50vw;
     }
     .box img {
@@ -152,5 +155,203 @@
     }
     .box-p2 {
         font-size: 3vw;
+    }
+    /* section #4 - host-info */
+    .host-info {
+        height: 170vw;
+    }
+    .wraper {
+        width: 100%;
+    }
+    .block {
+        justify-content: center;
+        height: 50%;
+        margin-bottom: 10vw;
+    }
+    .text-block {
+        width: 90%;
+        position: relative;
+        z-index: 50;
+    }
+    .block-p1 {
+        font-size: 5vw;
+        margin-bottom: 7vw;
+    }
+    .block-p2 {
+        font-size: 4vw;
+        margin-bottom: 7vw;
+    }
+    .block-p3 {
+        font-size: 3.5vw;
+        margin-bottom: 3.5vw;
+    }
+    .block-p3 i {
+        color: #6AC259;
+        margin-right: 0.5vw;
+    }
+    .block-a {
+        font-size: 3vw;
+    }
+    .image-block {
+        width: 45%;
+        position: absolute;
+        z-index: 12;
+    }
+    .image-block img {
+        width: 100%;
+        opacity: 0.4;
+    }
+    /* section #5 - packets */
+    .container {
+        height: 85vw;
+    }
+    .container-overlay {
+        height: 85vw;
+    }
+    .container-p1 {
+        font-size: 5vw;
+        margin-bottom: 3vw;
+    }
+    .container-p2 {
+        font-size: 3.4vw;
+        width: 95%;
+    }
+    .packets {
+        width: 98%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .packet {
+        width: 30vw;
+        height: 45vw;
+    }
+    .packet-border {
+        width: 30vw;
+        height: 45vw;
+    }
+    .packet-p1 {
+        font-size: 3.3vw;
+        margin-bottom: 2.2vw;
+    }
+    .packet-p2 {
+        font-size: 6.5vw;
+        margin-bottom: 2.2vw;
+    }
+    .paragraph-top {
+        font-size: 3vw;
+    }
+    .packet-p {
+        font-size: 2.6vw;
+        font-family: 'poppins', sans-serif;
+        color: #5F6874;
+        margin-bottom: 2vw;
+    }
+    .packet-p7 {
+        font-size: 1.6vw;
+        margin-top: 1.5vw;
+    }
+    .border-txt {
+        transform: rotate(-44deg);
+        position: absolute;
+        bottom: 2.4vw;
+        right: 0.6vw;
+    }
+    .border-txt a {
+        font-size: 2vw;
+    }
+    /* footer */
+    footer {
+        background-color: #1B1543;
+        height: 40vw;
+    }
+    .footer-wraper {
+        height: 40vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .footer-divider {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .footer-nav {
+        display: flex;
+        justify-content: space-between;
+        width: 95%;
+        margin: 0 auto;
+        height: 22vw;
+        border-bottom: gray solid 1px;
+        margin-bottom: 4vw;
+    }
+    .adress-ul {
+        width: 18vw;
+    }
+    .footer-title {
+        font-size: 3vw;
+        color: #FFFFFF;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+    }
+    .adress-li {
+        margin-top: 1.8vw;
+        font-size: 1.6vw;
+        color: #FFFFFF;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+    }
+    .footer-p {
+        font-size: 1.7vw;
+        font-family: 'poppins', sans-serif;
+        color: #FFFFFF;
+        margin-bottom: 2vw;
+    }
+    .footer-li {
+        font-size: 1.7vw;
+        font-family: 'poppins', sans-serif;
+        margin-bottom: 1.2vw;
+    }
+    .footer-li a {
+        color: rgba(255, 255, 255, 0.7);
+    }
+    .email-form {
+        display: flex;
+        align-items: center;
+    }
+    .email-form input {
+        width: 12vw;
+        height: 3vw;
+        outline: none;
+        border-radius: 0.3vw;
+        border-style: none;
+    }
+    .submit-button {
+        background-color: #3ECCED;
+        color: #FFFFFF;
+        border-style: none;
+        font-family: 'poppins', sans-serif;
+        margin-left: -10px;
+        height: 3vw;
+        border-radius: 0.3vw;
+        outline: none;
+    }
+    .copyright {
+        width: 95%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    .copyright-p {
+        font-family: 'poppins', sans-serif;
+        color: #FFFFFF;
+        font-size: 1.3vw;
+    }
+    .copyright-a {
+        font-family: 'poppins', sans-serif;
+        color: #FFFFFF;
+        font-size: 1.3vw;
+    }
+    .margin {
+        margin-right: 1vw;
     }
 }
