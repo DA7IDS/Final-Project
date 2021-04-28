@@ -1,11 +1,156 @@
-@media (max-width: 900px) {
+@media (max-width: 800px) {
+    /* header */
+    header {
+        height: 130vw;
+    }
     .contact {
         display: none;
     }
     .nav {
         display: none;
     }
+    .nav-title {
+        font-size: 4vw;
+    }
     .burger-bar {
         display: block;
+        font-size: 4vw;
+    }
+    /* section #1 - suggestion */
+    .suggestion {
+        width: 100%;
+    }
+    .suggest-img {
+        height: 58.5vw;
+        position: relative;
+        z-index: 1;
+    }
+    .image {
+        height: 58.5vw;
+        opacity: 0.5;
+    }
+    .offer {
+        position: absolute;
+        width: 85%;
+        text-align: center;
+        z-index: 2;
+    }
+    .offer-p1 {
+        font-size: 5vw;
+        margin-bottom: 6vw;
+    }
+    .offer-p2 {
+        font-size: 3vw;
+        margin-bottom: 6vw;
+    }
+    .offer-button {
+        width: 18vw;
+        height: 5vw;
+    }
+    .offer-button a {
+        font-size: 2vw;
+    }
+    .search-p1 {
+        font-size: 5vw;
+        margin-bottom: 5vw;
+    }
+    .search-form input {
+        width: 70%;
+        height: 8vw;
+        font-size: 2.5vw;
+    }
+    .search-button {
+        width: 20vw;
+        height: 8vw;
+        font-size: 2.5vw;
+    }
+    .domain-li a {
+        font-size: 2.4vw;
+    }
+    .cards {
+        width: 90%;
+    }
+    .card {
+        width: 27vw;
+        height: 30vw;
+        border-radius: 1.6vw;
+    }
+    .card-p1 {
+        font-size: 2.7vw;
+    }
+    .card-p2 {
+        font-size: 2.3vw;
+    }
+    .card img {
+        width: 10vw;
+    }
+    /* section #2 - banner*/
+    .section {
+        height: 70vw;
+    }
+    .banner-txt {
+        width: 90%;
+        position: absolute;
+        z-index: 20;
+        height: 70vw;
+    }
+    .banner-p1 {
+        font-size: 5.5vw;
+    }
+    .banner-p2 {
+        font-size: 3vw;
+    }
+    .banner-button {
+        width: 22vw;
+        height: 7vw;
+        border-radius: 2.1vw;
+        border-style: none;
+    }
+    .banner-button a {
+        font-size: 2.5vw;
+    }
+    .banner-image {
+        width: 90%;
+        position: relative;
+        z-index: 7;
+        opacity: 0.5;
+    }
+    .banner-img {
+        position: relative;
+    }
+    /* section 3 */
+    .info {
+        height: 220vw;
+    }
+    .details {
+        width: 95%;
+        height: 200vw;
+    }
+    .details-paragraphs {
+        width: 95%;
+    }
+    .details-p1 {
+        font-size: 7vw;
+        margin-bottom: 3vw;
+    }
+    .details-p2 {
+        font-size: 5vw;
+        margin-bottom: 6vw;
+    }
+    .details-box {
+        height: 150vw;
+    }
+    .box {
+        width: 40vw;
+        height: 50vw;
+    }
+    .box img {
+        width: 10vw;
+    }
+    .box-p1 {
+        font-size: 4vw;
+    }
+    .box-p2 {
+        font-size: 3vw;
     }
 }
