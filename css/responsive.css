@@ -3,6 +3,9 @@
     header {
         height: 135vw;
     }
+    .header-wraper {
+        height: 135vw;
+    }
     .contact {
         display: none;
     }
@@ -24,13 +27,13 @@
         width: 100%;
     }
     .suggest-img {
-        /* height: 58.5vw; */
+        width: 60%;
         position: relative;
         z-index: 1;
     }
     .image {
-        /* height: 58.5vw; */
-        opacity: 0.5;
+        width: 100%;
+        opacity: 0.3;
     }
     .offer {
         position: absolute;
@@ -115,7 +118,7 @@
         width: 90%;
         position: relative;
         z-index: 7;
-        opacity: 0.5;
+        opacity: 0.3;
     }
     .banner-img {
         position: relative;
@@ -199,7 +202,7 @@
     }
     .image-block img {
         width: 100%;
-        opacity: 0.4;
+        opacity: 0.3;
     }
     /* section #5 - packets */
     .container {
@@ -253,11 +256,11 @@
     .border-txt {
         transform: rotate(-44deg);
         position: absolute;
-        bottom: 2.4vw;
-        right: 0.6vw;
+        bottom: 3vw;
+        right: -0.2vw;
     }
     .border-txt a {
-        font-size: 2vw;
+        font-size: 2.2vw;
     }
     /* footer */
     footer {
