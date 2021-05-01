@@ -1,12 +1,6 @@
 @media (max-width: 800px) {
     /* header */
-    header {
-        height: 135vw;
-    }
-    .header-wraper {
-        height: 135vw;
-    }
-    .contact {
+    .contact-nav {
         display: none;
     }
     .navigation {
