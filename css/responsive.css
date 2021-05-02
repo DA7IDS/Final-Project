@@ -258,97 +258,68 @@
     }
     /* footer */
     footer {
-        background-color: #1B1543;
-        height: 40vw;
+        height: 90vw;
     }
     .footer-wraper {
-        height: 40vw;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-    .footer-divider {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+        height: 90vw;
     }
     .footer-nav {
-        display: flex;
-        justify-content: space-between;
-        width: 95%;
-        margin: 0 auto;
-        height: 22vw;
-        border-bottom: gray solid 1px;
+        height: 70vw;
         margin-bottom: 4vw;
+        flex-wrap: wrap;
     }
     .adress-ul {
-        width: 18vw;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     .footer-title {
-        font-size: 3vw;
-        color: #FFFFFF;
-        font-family: 'Roboto', sans-serif;
-        font-weight: 300;
+        font-size: 4vw;
     }
     .adress-li {
         margin-top: 1.8vw;
-        font-size: 1.6vw;
-        color: #FFFFFF;
-        font-family: 'Roboto', sans-serif;
-        font-weight: 300;
+        font-size: 2.5vw;
+        width: 60%;
+    }
+    .footer-ul {
+        width: 50%;
     }
     .footer-p {
-        font-size: 1.7vw;
-        font-family: 'poppins', sans-serif;
-        color: #FFFFFF;
-        margin-bottom: 2vw;
+        font-size: 3vw;
+        margin-bottom: 2.5vw;
     }
     .footer-li {
-        font-size: 1.7vw;
-        font-family: 'poppins', sans-serif;
-        margin-bottom: 1.2vw;
+        font-size: 2.2vw;
+        margin-bottom: 1.5vw;
     }
-    .footer-li a {
-        color: rgba(255, 255, 255, 0.7);
-    }
-    .email-form {
+    .newsletter {
         display: flex;
+        flex-direction: column;
         align-items: center;
+        margin: 5vw auto;
     }
     .email-form input {
-        width: 12vw;
-        height: 3vw;
-        outline: none;
-        border-radius: 0.3vw;
-        border-style: none;
+        width: 30vw;
+        height: 8vw;
+        font-size: 2.5vw;
     }
     .submit-button {
-        background-color: #3ECCED;
-        color: #FFFFFF;
-        border-style: none;
-        font-family: 'poppins', sans-serif;
-        margin-left: -10px;
-        height: 3vw;
-        border-radius: 0.3vw;
-        outline: none;
+        height: 8vw;
+        font-size: 2.5vw;
     }
     .copyright {
         width: 95%;
         margin: 0 auto;
         display: flex;
         justify-content: space-between;
+        padding: 0;
     }
     .copyright-p {
-        font-family: 'poppins', sans-serif;
-        color: #FFFFFF;
-        font-size: 1.3vw;
+        font-size: 2.5vw;
+        margin-top: 1vw;
     }
     .copyright-a {
-        font-family: 'poppins', sans-serif;
-        color: #FFFFFF;
-        font-size: 1.3vw;
-    }
-    .margin {
-        margin-right: 1vw;
+        font-size: 2.5vw;
     }
 }
