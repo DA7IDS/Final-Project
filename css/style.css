@@ -16,7 +16,6 @@
         font-family: 'Poppins', sans-serif;
         height: 4.2vw;
         display: flex;
-        align-items: center;
         justify-content: space-between;
     }
     
@@ -25,6 +24,7 @@
         margin: 0 auto;
         display: flex;
         justify-content: space-between;
+        align-items: center;
     }
     
     .contact-li {
@@ -75,7 +75,7 @@
         font-weight: 400;
     }
     
-    .burger-menu {
+    .burger-icon {
         font-size: 3vw;
         display: none;
         color: #FFFFFF;

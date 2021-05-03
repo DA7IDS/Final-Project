@@ -1,21 +1,44 @@
-@media (max-width: 800px) {
+@media (max-width: 700px) {
     /* header */
-    .contact-nav {
-        display: none;
-    }
     .navigation {
         height: 10vw;
+    }
+    .contact-nav {
+        display: none;
     }
     .menu-ul {
         display: none;
     }
-    .nav-title {
-        font-size: 5vw;
+    .menu-ul.open-menu {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        position: fixed;
+        height: 60vw;
+        width: 50%;
+        top: 10vw;
+        right: 7vw;
+        border-radius: 10% 1% 10% 10%;
+        background: linear-gradient(140deg, rgba(137, 9, 173, 0.8) 0%, rgba(31, 8, 162, 0.9) 100%);
+        z-index: 55;
     }
-    .burger-menu {
+    .nav-li {
+        margin: 0;
+    }
+    .nav-li a {
+        font-size: 3.5vw;
+    }
+    .nav-title {
+        font-size: 4.5vw;
+    }
+    .burger-icon {
         display: block;
         font-size: 5vw;
+        right: 7vw;
         cursor: pointer;
+        position: fixed;
+        z-index: 50;
     }
     /* section #1 - suggestion */
     .suggestion {
@@ -72,11 +95,11 @@
     }
     .card {
         width: 27vw;
-        height: 22vw;
+        height: 20vw;
         border-radius: 1.6vw;
     }
     .card-p1 {
-        font-size: 3vw;
+        font-size: 2.3vw;
     }
     .card-p2 {
         font-size: 2vw;
