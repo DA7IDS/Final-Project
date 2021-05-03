@@ -6,15 +6,16 @@
     .navigation {
         height: 10vw;
     }
-    .nav {
+    .menu-ul {
         display: none;
     }
     .nav-title {
         font-size: 5vw;
     }
-    .burger-bar {
+    .burger-menu {
         display: block;
         font-size: 5vw;
+        cursor: pointer;
     }
     /* section #1 - suggestion */
     .suggestion {
@@ -50,38 +51,38 @@
         font-size: 2vw;
     }
     .search-p1 {
-        font-size: 5vw;
+        font-size: 4.5vw;
         margin-bottom: 5vw;
     }
     .search-form input {
-        width: 70%;
-        height: 8vw;
+        width: 60%;
+        height: 7vw;
         font-size: 2.5vw;
     }
     .search-button {
         width: 20vw;
-        height: 8vw;
+        height: 7vw;
         font-size: 2.5vw;
     }
     .domain-li a {
-        font-size: 2.4vw;
+        font-size: 2vw;
     }
     .cards {
         width: 90%;
     }
     .card {
         width: 27vw;
-        height: 30vw;
+        height: 22vw;
         border-radius: 1.6vw;
     }
     .card-p1 {
-        font-size: 2.7vw;
+        font-size: 3vw;
     }
     .card-p2 {
-        font-size: 2.3vw;
+        font-size: 2vw;
     }
     .card img {
-        width: 10vw;
+        width: 7vw;
     }
     /* section #2 - banner*/
     .section {
@@ -119,21 +120,21 @@
     }
     /* section 3 */
     .info {
-        height: 220vw;
+        height: 210vw;
     }
     .details {
         width: 95%;
-        height: 200vw;
+        height: 190vw;
     }
     .details-paragraphs {
         width: 100%;
     }
     .details-p1 {
-        font-size: 7vw;
+        font-size: 6vw;
         margin-bottom: 3vw;
     }
     .details-p2 {
-        font-size: 5vw;
+        font-size: 4vw;
         margin-bottom: 6vw;
     }
     .details-box {
@@ -300,12 +301,12 @@
         margin: 5vw auto;
     }
     .email-form input {
-        width: 30vw;
-        height: 8vw;
+        width: 25vw;
+        height: 6vw;
         font-size: 2.5vw;
     }
     .submit-button {
-        height: 8vw;
+        height: 6vw;
         font-size: 2.5vw;
     }
     .copyright {

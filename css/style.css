@@ -52,7 +52,7 @@
         height: 7.8vw;
     }
     
-    .nav {
+    .menu-ul {
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -75,7 +75,7 @@
         font-weight: 400;
     }
     
-    .burger-bar {
+    .burger-menu {
         font-size: 3vw;
         display: none;
         color: #FFFFFF;
