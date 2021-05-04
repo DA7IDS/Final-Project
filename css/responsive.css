@@ -22,7 +22,7 @@
         -webkit-box-direction: normal;
         -ms-flex-direction: column;
         flex-direction: column;
-        position: fixed;
+        position: absolute;
         height: 60vw;
         width: 50%;
         top: 10vw;
@@ -30,7 +30,7 @@
         border-radius: 10% 1% 10% 10%;
         background: -o-linear-gradient(310deg, rgba(137, 9, 173, 0.8) 0%, rgba(31, 8, 162, 0.9) 100%);
         background: linear-gradient(140deg, rgba(137, 9, 173, 0.8) 0%, rgba(31, 8, 162, 0.9) 100%);
-        z-index: 55;
+        z-index: 50;
     }
     .nav-li {
         margin: 0;
@@ -46,8 +46,8 @@
         font-size: 5vw;
         right: 7vw;
         cursor: pointer;
-        position: fixed;
-        z-index: 50;
+        position: absolute;
+        z-index: 5;
     }
     /* section #1 - suggestion */
     .suggestion {
